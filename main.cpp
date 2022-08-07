@@ -7,7 +7,7 @@ int main() {
         sum += numbers[i];
         if (numbers[i] < min) min = numbers[i];
     }
-    int without_recurs = min * 14 + 13 + 12 + 11 + 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1;
+    int without_recurs = min * 14 + (1 + 13) / 2 * 13;
     std::cout << "Recurring number is: " << sum - without_recurs;
     return 0;
 }
